@@ -1,0 +1,13 @@
+div {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-width: 20px;
+    border-color: blue;
+    border-style: inset;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20% 0% 20% 0%;
+    box-shadow: inset -30px -30px 10px 5px yellow;
+ 
+}

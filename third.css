@@ -8,16 +8,19 @@ body{
 .one{
     text-align: center;
     background-color: lawngreen;
-    position: fixed;
+    /* position: fixed;
     bottom: 200px;
-    left: 25px;
-    
-    
+    left: 25px; */
 }
-.rr h2{
+
+.head h2{
     font-size: 40px;
     color: black;
-    margin-top: 30px;
+    margin-top: 10px;
+   
+    position: fixed;
+    top: 20px;
+    left: 550px;
     text-align: center;
 }
 
@@ -34,9 +37,9 @@ body{
 .two{
     background-color: lawngreen;
     text-align: center;
-    position: fixed;
+    /* position: fixed;
     bottom: 200px;
-    left: 450px;
+    left: 450px; */
 }
 
 .two h3{
@@ -60,9 +63,9 @@ button{
 .three{
     background-color: lawngreen;
     text-align: center;
-    position: fixed;
+    /* position: fixed;
     bottom: 210px;
-    left: 900px;
+    left: 900px; */
 }
 
 .three p{
@@ -77,14 +80,21 @@ button{
 
 .tt{
     font-size: 70px;
-    position: fixed;
+    /* position: fixed;
     bottom: 380px;
-    left: 180px;
+    left: 180px; */
 }
 
-.uu{
+i{
     font-size: 70px;
-    position: fixed;
+    /* position: fixed;
     bottom: 380px;
-    left: 1060px;
+    left: 1060px; */
 }
+
+.ll{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+

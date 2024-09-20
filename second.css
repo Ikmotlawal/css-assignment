@@ -6,26 +6,20 @@ div h1{
     text-align: center;
 }
 
-img{
-    width:100px;
-    height: 100px;
-    
-}
-
 .wo{
     float: left;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
 }
 
 .tw{
     float: right;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
 }
 
 .io{
     float: left;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
 }

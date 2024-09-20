@@ -8,18 +8,12 @@ body{
 .one{
     text-align: center;
     background-color: lawngreen;
-    /* position: fixed;
-    bottom: 200px;
-    left: 25px; */
 }
 
 .head h2{
     font-size: 40px;
     color: black;
     margin-top: 10px;
-    position: fixed;
-    top: 20px;
-    left: 550px;
     text-align: center;
 }
 
@@ -36,10 +30,7 @@ body{
 .two{
     background-color: lawngreen;
     text-align: center;
-    /* position: fixed;
-    bottom: 200px;
-    left: 450px; */
-}
+    }
 
 .two h3{
     font-size: 20px;
@@ -62,9 +53,6 @@ button{
 .three{
     background-color: lawngreen;
     text-align: center;
-    /* position: fixed;
-    bottom: 210px;
-    left: 900px; */
 }
 
 .three p{
@@ -79,16 +67,10 @@ button{
 
 .tt{
     font-size: 70px;
-    /* position: fixed;
-    bottom: 380px;
-    left: 180px; */
 }
 
 i{
     font-size: 70px;
-    /* position: fixed;
-    bottom: 380px;
-    left: 1060px; */
 }
 
 .ll{

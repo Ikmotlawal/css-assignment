@@ -1,0 +1,40 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;    
+}
+
+.child input{
+    display: none;
+}
+
+.child:has(input:checked){
+    border: 4px dashed blue;
+}
+
+
+
+.h{
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    padding-top: 20px;
+    height:300px ;
+    margin:20px ;
+    width: 1300px;
+}
+
+body{
+    color: blue;
+}
+
+h1{
+    padding: 20px;
+}

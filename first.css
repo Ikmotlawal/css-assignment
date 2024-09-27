@@ -1,9 +1,3 @@
-div{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    height: 150px;
-    width: 400px;
-}
 
 .two{
     background-color: white;
@@ -13,6 +7,10 @@ div{
     position: relative;
     margin-top:200px ;
     margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 150px;
+    width: 400px;
 }
 
 .one{
@@ -24,4 +22,53 @@ div{
     right: -7px;
     transform: rotate(45deg);
    
+}
+
+.ll{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.ww{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+   
+}
+
+.ww li{
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 25px;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+
+.oo{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    padding-left: 10px;
+}
+
+/* .bb{
+    padding-left: 30px;
+} */
+
+.bb button{
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
 }

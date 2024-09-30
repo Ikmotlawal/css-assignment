@@ -126,10 +126,12 @@ a{
     border: none;
     border-radius: 10px;
     padding: 10px;
+
 }
 
 .bb:hover>ul.ss{
     display: block;
+    border: dashed;
 }
 
 .lh .ss{

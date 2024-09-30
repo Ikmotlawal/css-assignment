@@ -55,6 +55,7 @@ a{
 
 .bb:hover>ul.ss{
     display: block;
+    border: dashed;
 }
 
 .lh .ss{

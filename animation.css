@@ -49,6 +49,7 @@ a{
 
 .bb:hover>ul.ss{
     display: block;
+    border: dashed;
 }
 
 .ll .ss{

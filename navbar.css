@@ -1,29 +1,3 @@
-div p{
-    font-size: 30px;
-}
-
-div h1{
-    text-align: center;
-}
-
-.wo{
-    float: left;
-    width: 400px;
-    height: 300px;
-}
-
-.tw{
-    float: right;
-    width: 400px;
-    height: 300px;
-}
-
-.io{
-    float: left;
-    width: 400px;
-    height: 300px;
-}
-
 .ll{
     background-color: rgb(128, 0, 96);
     display: flex;
@@ -88,9 +62,25 @@ a{
     list-style: none;
 }
 
-@media(max-width:768px){
-    .class{
-        flex-direction: column;
-    }
-    
+.bi-list{
+    display: none;
 }
+
+@media (max-width: 768px) {
+    .ww{
+        display: none;
+    }
+    .bi-list{
+        display: inline;
+    }
+    .bb button{
+        display: none;
+    }
+    ul.ss{
+        display: none !important;
+    }
+}
+
+
+
+

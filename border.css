@@ -11,66 +11,8 @@
     box-shadow: inset -30px -30px 10px 5px yellow;
  
 }
-
-.ll{
-    background-color: rgb(128, 0, 96);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    border-radius: 20px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.ww{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-   
-}
-
-.ww li{
-    list-style-type: none;
-    margin: 0 20px;
-    font-size: 25px;
-    background-color: rgb(0, 174, 255);
-    padding: 10px 20px;
-    border-radius: 30px; 
-}
-
-.oo{
-    width: 100px;
-    height: 100px;
-    border-radius: 30px;
-}
-
-/* .bb{
-    padding-left: 30px;
-} */
-
-.bb button{
-    background-color: rgb(255, 210, 192);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.bb:hover>ul.ss{
-    display: block;
-    border: dashed;
-}
-
-.ll .ss{
-    display: none;
-    background-color: blue;
-    position: absolute;
-    border-radius: 20px;
-    padding: 10px;
-    list-style-type: none;
+@media(max-width:768px){
+    .nn{
+        flex-direction: column;
+    } 
 }

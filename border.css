@@ -11,8 +11,8 @@
     box-shadow: inset -30px -30px 10px 5px yellow;
  
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
     .nn{
         flex-direction: column;
     } 
-}
+} */

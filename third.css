@@ -77,15 +77,14 @@ i{
     display: flex;
     justify-content: space-around ;
     align-items: center;
-    flex-direction: row;
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
     .lh{
         flex-direction: column;
     }
     
-}
+} */
 
 
 

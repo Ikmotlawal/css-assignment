@@ -39,7 +39,7 @@ body{
         margin-left: 0px;
     }
 }
-
+/* 
 @media(max-width:768px){
     body{
         flex-direction: column;
@@ -51,4 +51,4 @@ body{
         flex-direction: column;
     }
     
-}
+} */

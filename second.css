@@ -87,10 +87,10 @@ a{
     padding: 10px;
     list-style: none;
 }
-
+/* 
 @media(max-width:768px){
     .class{
         flex-direction: column;
     }
     
-}
+} */

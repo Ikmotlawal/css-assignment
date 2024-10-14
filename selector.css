@@ -1,7 +1,7 @@
 .parent{
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 }
 
 .child{
@@ -9,7 +9,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     cursor: pointer;
-    display: block;    
+    /* display: block;     */
 }
 
 .child input{
@@ -26,9 +26,9 @@
     border-radius: 20px;
     box-shadow: 5px 5px 20px black;
     padding-top: 20px;
-    height:300px ;
-    margin:20px ;
-    width: 1300px;
+    /* height:300px ; */
+    /* margin:20px ;
+    width: 1300px; */
 }
 
 body{

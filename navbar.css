@@ -1,4 +1,4 @@
-.ll{
+/* .ll{
     background-color: rgb(128, 0, 96);
     display: flex;
     justify-content: space-between;
@@ -33,21 +33,21 @@ a{
     width: 100px;
     height: 100px;
     border-radius: 30px;
-}
+} */
 
 /* .bb{
     padding-left: 30px;
 } */
 
-.bb button{
+/* .bb button{
     background-color: rgb(255, 210, 192);
     color: white;
     border: none;
     border-radius: 10px;
     padding: 10px;
-}
+} */
 
-.bb:hover>ul.ss{
+/* .bb:hover>ul.ss{
     display: block;
     border: dashed;
     margin-top: 3px;
@@ -79,8 +79,4 @@ a{
     ul.ss{
         display: none !important;
     }
-}
-
-
-
-
+} */

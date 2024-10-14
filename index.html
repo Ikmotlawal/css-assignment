@@ -9,6 +9,68 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="ikmot.css">
     <link rel="stylesheet" href="navbar.css">
+
+    <style>
+        ol {
+            background: rgba(34, 18, 18, 0.734);
+            padding: 15px 15px;
+            width: fit-content;
+            text-align: justify;
+            border-radius: 5px;
+
+
+        }
+
+        a {
+            color: red;
+        }
+
+        .image {
+            position: fixed;
+            width: 50px;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .list {
+            padding: 10px;
+            display: inline-flex;
+            list-style-type: none;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .aa {
+            background: rgb(138, 136, 136);
+            height: 50px;
+            font-size: 40px;
+        }
+
+        li.kk:hover {
+            background: darkslateblue;
+        }
+
+        li.kk:active {
+            background: darkslateblue;
+        }
+
+        .bb {
+            color: green;
+        }
+
+        .dd {
+            box-shadow: 0px 0px 10px black;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,23 +111,23 @@
     <div class="container">
         <div class="row">
             <div class="class col-md">
-                <h4>
+                <h4 class="no">
                     123 Maple Street <br> Springfield, IL 62704 <br> September 4, 2024.
                 </h4>
 
-                <h5>
+                <h5 class="yes">
                     Hiring Manager <br> Bright Future Tech <br> 456 Innovation Way <br> Chicago, IL 60616
                 </h5>
 
-                <h1>
+                <h1 class="ikmot">
                     Application for Frontend Developer Position
                 </h1>
 
-                <h2>
+                <h2 class="child">
                     Dear Ms.Smith,
                 </h2>
 
-                <p>
+                <p class="parent">
                     I am writing to express my interest in Frontend Developer position at Bright Future Tech, as
                     advertised on
                     website. With a strong background in web development and a passion for creating user-friendly
@@ -75,7 +137,7 @@
                     tech solutions.
                 </p>
 
-                <p>
+                <p class="parent">
                     In my previous role at WebWorks Inc., I was responsible for developing and maintaining the front-end
                     of several
                     high-traffic websites. This experience has given me a deep understanding of HTML,CSS.JavaScript, and
@@ -87,7 +149,7 @@
                     Bright Future Tech and work on projects that will reach a wide audience.
                 </p>
 
-                <p>
+                <p class="parent">
                     Thank you for considering my application. I would welcome the chance to discuss how my skills and
                     experience
                     align with the needs of your team. I look forward to possibility of contributing to the possibility
@@ -95,13 +157,244 @@
                     contributing to the innovative work being done at Bright Future Tech.
                 </p>
 
-                <h3>
+                <h3 class="but">
                     Sincerely, <br>
                     Ikmot lawal.
                 </h3>
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col aa">
+                WHAT WE DO
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav nav-pills row">
+        <ul class="nav nav-pillss nav-fill" id="myTab" role="tablist">
+            <li class="nav-item kk" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" aria-selected="true" role="tab">DEVELOPMENT</button>
+            </li>
+            <li class="nav-item kk" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" aria-selected="false" role="tab" tabindex="-1">TRADING</button>
+            </li>
+            <li class="nav-item kk" role="presentation">
+                <button class="nav-link" id="management" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" aria-selected="false" role="tab" tabindex="-1">MANAGEMENT</button>
+            </li>
+            <li class="nav-item kk" role="presentation">
+                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#invest-tab-pane"
+                    type="button" aria-selected="false" role="tab" tabindex="-1">INVESTMENT</button>
+            </li>
+            <li class="nav-item kk" role="presentation">
+                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#docu-tab-pane"
+                    type="button" aria-selected="false" role="tab" tabindex="-1">DOCUMENTATION</button>
+            </li>
+            <li class="nav-item kk " role="presentation">
+                <button class="nav-link kk" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#train-tab-pane"
+                    type="button" aria-selected="false" role="tab" tabindex="-1">TRAINING</button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade col-sm active show" id="home-tab-pane" tabindex="0" role="tabpanel"
+            aria-labelledby="home-tab">
+            <div class="row dd">
+                <div class="col">
+                    <img src="development.jpg" width="80%">
+                </div>
+                <div class="col">
+                    <h2 class="bb">
+                        Development
+                    </h2><br>
+                    <h5><b>Building A Well Lay-Out Environment
+                            with Excellent Infrastructures
+                        </b>
+                    </h5><br>
+                    Real Estate is the king of all investments,it
+                    possesses tremendous appreciation power
+                    and speed for wealth than any other viable
+                    investments. Location is the different interplays between
+                    people, infrastructure and security which
+                    makes a piece of earth beautiful and unique.
+                    We believe that no slum should exist and that by
+                    eradicating slums, we are creating value in
+                    the people and places which is our philosopy
+                    of wealth. Therefore, we develop Resenditial,
+                    Commercial, Industrial and Agricultural Real
+                    Estate.
+
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane fade col-sm" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row dd">
+                <div class="col-sm">
+                    <img src="trading.jpg" width="80%">
+                </div>
+                <div class="col-sm">
+                    <p>
+                    </p>
+                    <h2 class="bb">
+                        Trading
+                    </h2><br>
+                    <h5><b>
+                            Best Property Offers in The Markets
+                        </b></h5><br>
+                    We have a list of trusted properties. These properties are well located
+                    in prime areas and they have passed our of due dilligence before
+                    we offer them for sale.
+                    You can also bring your properties for us to sell for you. <br><br>
+                    <button class="btn btn-success" type="submit">VIEW PROPERTIES FOR SALE</button><br><br>
+                    Do you want to know about our trade by barter option? <br><br>
+                    <button class="btn btn-success" type="submit">Click here</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" tabindex="0" role="tabpanel" aria-labelledby="management">
+            <div class="row dd">
+                <div class="col-sm">
+                    <img src="management.jpg" width="80%">
+                </div>
+                <div class="col-sm">
+                    <p>
+                    </p>
+                    <h2 class="bb">
+                        Management
+                    </h2><br>
+                    <h5><b>
+                            Proffessional Managers and Assets Facilitators That Bring Joy to
+                            Property Owners
+                        </b></h5><br>
+                    Property Management is the hallmark of a successful property acquisition.
+                    We have a saying "if you cannot maintain it, do not buy it". Properties must
+                    be maintained to birth and keep birthing prosperity, comfort and peace
+                    of mind for the owerner(s). Property Management(PM) is the second reason why
+                    property owners make or lose money. When properties are well managed, the
+                    landlords truly make money while sleeping. We are seasoned managers who can guide
+                    you to make best decisions about asset acquisitions and stay joyous for doing so.
+                    <br><br><br>
+                    <h5>
+                        YOU WANT US TO MANAGE YOUR PROPERTIES?
+                    </h5><br><br><br>
+                    <button class="btn btn-success" type="submit">Click here</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="invest-tab-pane" tabindex="0" role="tabpanel" aria-labelledby="disabled-tab">
+            <div class="row dd">
+                <div class="col-sm">
+                    <img src="investment.jpg" width="80%">
+                </div>
+                <div class="col-sm">
+                    <p>
+                    </p>
+                    <h2 class="bb">
+                        Investment
+                    </h2>
+                    <h5><b>
+                            Convergence of Scarce Resources to Maximize Profit
+                        </b></h5><br>
+                    Every Real Estate transaction is an investment. At Green Peace Global Properties
+                    and Realty Limited, we work around the clock to ensure that all is able to participate in Real
+                    Estate opportunities. We understand that real estate investment is not limited to buying and
+                    selling, it includes partnership with credible Real Estate firm to facilitate Real Estate
+                    business and rewarded with profdit sharing. Green Peace Properties have designed some win-win
+                    partnership scheme that allows people to invest with us and get both their capital and
+                    return at a stipulated time as agreed in the contract of investment. <br><br><br>
+                    <h5>
+                        INTERESTED?
+                    </h5><br><br><br>
+                    <button class="btn btn-success" type="submit">SPEAK WITH US</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="docu-tab-pane" tabindex="0" role="tabpanel" aria-labelledby="disabled-tab">
+            <div class="row dd">
+                <div class="col-sm">
+                    <img src="documentation.jpg" width="80%">
+                </div>
+                <div class="col-sm">
+                    <p>
+                    </p>
+                    <h2 class="bb">
+                        Documentation and sponsorship
+                    </h2>
+                    <h5>
+                        <b>
+                            We Make Securing Real Estate Land and Titles Documentary Easy
+                        </b>
+                    </h5><br>
+                    Green Peace Global Properties is a company that values peace of mind and perfect title
+                    documentation is a way to guarantee such peace. Title perfection is the process of
+                    securing necessary legal and other documents that show absolute ownership and authority over a
+                    piece
+                    of property and be it building or land. Aside securing such documents for a perfect title, it is
+                    also a valid
+                    means to guarantee such peace. Properties developed by us, we also help individual and group of
+                    people like families/ co-operatives,
+                    association etc to advise them on the appropriate documents they need to absolutely secure their
+                    properties and set in
+                    pace our team of Proffessionals to deliver glitch free documentation with the appropriate
+                    authorities. We also sponsor
+                    documentation of land on request after agreement on renumeration. <br>
+                    <br>
+                    <h5>
+                        INTERESTED?
+                    </h5><br><br><br>
+                    <button class="btn btn-success" type="submit">SPEAK WITH US</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="train-tab-pane" tabindex="0" role="tabpanel" aria-labelledby="disabled-tab">
+            <div class="row dd">
+                <div class="col-sm">
+                    <img src="training.jpg" width="80%">
+                </div>
+                <siv class="col-sm">
+                    <p>
+                    </p>
+                    <h2 class="bb">
+                        Training and Consultancy
+                    </h2>
+                    <h5>
+                        Knowledge is Power
+                    </h5><br>
+                    Power is an enablement to do anything. Knowledge is an entrance into power. Every
+                    man that has Knowledge can never be small. Real Estate is a field wide enough for all
+                    player to play. We believe in sharing our rich Real Estate experiences and Knowledge with
+                    interested people. That is one of the ways we know at Green Peace Properties to contribute
+                    to Real Estate development and wealth creation through it. We have structured trainings to teach
+                    people Real Estate and how to run a successful Real Estate business. We are one stop solution
+                    house
+                    to any Real Estate concerns. <br><br>
+                    <h5>
+                        TO JOIN THE NEXT TRAINING/REALTOR
+                    </h5><br><br><br>
+                    <button class="btn btn-success" type="submit">Click here</button>
+                    <p></p>
+                </siv>
+            </div>
+        </div>
+    </div>
+
 
     <script src="mujeeb.js"></script>
 </body>

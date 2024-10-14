@@ -1,30 +1,30 @@
-h4 {
+.no {
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-h1 {
+.ikmot {
     text-align: center;
     text-decoration: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h2 {
+.child {
     text-indent: 20px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-p {
+.parent {
     text-indent: 40px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h5 {
+.yes {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 } 
 
-h3 {
+.but {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20    px;
 }
